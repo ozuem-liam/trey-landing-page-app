@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ======= Header ====== */
+.header {
+  background: rgb(56, 56, 56);
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 10px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+/* ======= Copy Page ====== */
+
+.callToActionButton {
+  background: rgb(223, 54, 54);
+  color: #fff;
+  margin: 20px auto;
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  border: 1px solid rgb(223, 54, 54);
+  border-radius: 10px;
+}
+
+/* ======== Brands ======== */
+.brand-img {
+  margin: 10px auto;
+}
+.brand-img img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* ====== Footer ======== */
+
+.footer {
+  margin: 0;
+  padding: 10px;
+  background: rgb(56, 56, 56);
+  color: #fff;
+  font-size: 10px;
+}
