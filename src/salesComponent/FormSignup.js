@@ -9,7 +9,7 @@ const FormSignup = ({submitForm}) => {
         submitForm,
         validate
         );
-
+        
         
     return (
         <div>
@@ -71,26 +71,27 @@ const FormSignup = ({submitForm}) => {
                     {errors.number && <p>{errors.number}</p>}
                 </div>
 
-                {/* <div className="form-inputs">
+                <div className="form-inputs">
                     <label htmlFor="text"
                     className="form-label">
-                        Enter your request
+                        Message
                     </label>
                     <textarea
                     id="comment"
                     type="comment"
                     name="comment"
                     className="form-input"
-                    placeholder="Enter your request"
+                    placeholder="Write your message"
                     onChange={handleChange}
                     />
-                </div> */}
+                </div>
 
                 <button className="form-input-btn"
                 type="submit">
                     Submit
                 </button>
             </form>
+            <div id="status" class="success">Success</div>
 
         </div>
     )
